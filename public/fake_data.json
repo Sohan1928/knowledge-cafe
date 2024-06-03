@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "cover": "https://i.ibb.co/y4khN5k/patrick-tomasso-GXXYk-Swnd-P4-unsplash.jpg",
+    "title": "The Mysterious Island",
+    "author": "Jules Verne",
+    "author_img": "https://i.ibb.co/j3wdp8y/foto-sushi-6anudmp-ILw4-unsplash.jpg",
+    "posted_date": "2024-05-01",
+    "reading_time": "15",
+    "hashtags": ["#Adventure", "#ScienceFiction", "#Classic"]
+  },
+  {
+    "id": "2",
+    "cover": "https://i.ibb.co/ZS0xXKc/joanna-boj-Mh-Oo-D-h90ks-unsplash.jpg",
+    "title": "Hidden Realms",
+    "author": "Isabella Greene",
+    "author_img": "https://i.ibb.co/P974Rd3/stefan-stefancik-QXev-Dflbl8-A-unsplash.jpg",
+    "posted_date": "2024-05-10",
+    "reading_time": "20",
+    "hashtags": ["#Fantasy", "#Mystery", "#Magic"]
+  },
+  {
+    "id": "3",
+    "cover": "https://i.ibb.co/7Yncx3X/rod-long-WC7-Le-X79i-EU-unsplash.jpg",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "author_img": "https://i.ibb.co/J748g7w/imansyah-muhamad-putera-n4-Kew-LKFOZw-unsplash.jpg",
+    "posted_date": "2024-04-25",
+    "reading_time": "10",
+    "hashtags": ["#Strategy", "#Philosophy", "#History"]
+  },
+  {
+    "id": "4",
+    "cover": "https://i.ibb.co/mRH4nfC/nick-hillier-x-BXF9pr6-LQo-unsplash.jpg",
+    "title": "Galactic Travels",
+    "author": "Leo Schmidt",
+    "author_img": "https://i.ibb.co/ZRsjPM3/matheus-ferrero-W7b3e-DUb-2-I-unsplash.jpg",
+    "posted_date": "2024-05-15",
+    "reading_time": "25",
+    "hashtags": ["#ScienceFiction", "#Space", "#Adventure"]
+  },
+  {
+    "id": "5",
+    "cover": "https://i.ibb.co/px0j2hm/christian-allard-et-Ikw39or-F8-unsplash.jpg",
+    "title": "Whispers in the Wind",
+    "author": "Elena Rodriguez",
+    "author_img": "https://i.ibb.co/nLNWcPP/albert-dera-ILip77-Sbm-OE-unsplash.jpg",
+    "posted_date": "2024-05-20",
+    "reading_time": "30",
+    "hashtags": ["#Romance", "#Drama", "#Literature"]
+  },
+  {
+    "id": "6",
+    "cover": "https://i.ibb.co/Qv7SzXK/daan-evers-t-KN1-WXrz-Q3s-unsplash.jpg",
+    "title": "Cybernetic Dawn",
+    "author": "Markus Ray",
+    "author_img": "https://i.ibb.co/64XM92x/jurica-koletic-7-YVZYZe-ITc8-unsplash.jpg",
+    "posted_date": "2024-05-30",
+    "reading_time": "18",
+    "hashtags": ["#Cyberpunk", "#Thriller", "#Technology"]
+  }
+]
