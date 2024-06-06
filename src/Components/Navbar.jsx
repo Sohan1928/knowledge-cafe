@@ -1,14 +1,18 @@
 import "./Fonts.css";
 const Navbar = () => {
   return (
-    <div className="flex my-5   ">
-      <div className="flex items-center">
-        <img className="w-12 h-12" src="icon.png" alt="" />
-        <a className="text-xl text-[#6fcb9f] font-bold fonts">
-          Brew <span className="text-[#808000]">HaHa</span>
+    <div className="flex my-5 justify-between bg-[#B0DDE4] rounded-md drop-shadow-xl">
+      <div className="flex items-center pl-4">
+        <img className="w-12 h-12 rounded-full" src="icon.png" alt="" />
+        <a className="text-xl  font-bold fonts">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#642B73] to-[#C6426E]">
+            Brew HaHa
+          </span>{" "}
         </a>
       </div>
-      <div></div>
+      <div className="w-16 h-16 pr-5 flex items-center">
+        <img className="" src="profile.png" alt="" />
+      </div>
     </div>
   );
 };
