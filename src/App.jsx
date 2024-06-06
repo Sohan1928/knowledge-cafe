@@ -15,7 +15,9 @@ function App() {
           <div className="col-span-2 border">
             <Blogs></Blogs>
           </div>
-          <Bookmark></Bookmark>
+          <div>
+            <Bookmark></Bookmark>
+          </div>
         </div>
         <Footer></Footer>
       </div>
