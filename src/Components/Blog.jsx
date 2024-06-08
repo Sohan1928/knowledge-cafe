@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { MdOutlineBookmarkAdded } from "react-icons/md";
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
   const {
     title,
     cover,
@@ -16,7 +16,7 @@ const Blog = ({ blog, handleAddToBookmark }) => {
     <div className="mb-14">
       {/* cover photo */}
       <img
-        className="h-52 min-w-56 rounded-xl lg:h-full w-full my-4"
+        className="h-52 min-w-56 rounded-xl lg:h-96 w-full my-4"
         src={cover}
         alt={`Cover picture of the title ${title}`}
       />
@@ -61,6 +61,12 @@ const Blog = ({ blog, handleAddToBookmark }) => {
           </span>
         ))}
       </p>
+      <button
+        onClick={() => handleMarkAsRead(reading_time)}
+        className="ml-5 text-[#FA26A0] font-semibold underline"
+      >
+        Mark as read
+      </button>
     </div>
   );
 };
@@ -68,6 +74,7 @@ const Blog = ({ blog, handleAddToBookmark }) => {
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handleAddToBookmark: PropTypes.func,
+  handleMarkAsRead: PropTypes.func,
 };
 
 export default Blog;

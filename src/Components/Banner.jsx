@@ -31,6 +31,7 @@ export default function App() {
       >
         {Data.map((result, index) => (
           <SwiperSlide key={index}>
+            <p className="bg-[#FBC7F7] text-xl font-semibold">{result.title}</p>
             <img src={result.img} />
           </SwiperSlide>
         ))}
